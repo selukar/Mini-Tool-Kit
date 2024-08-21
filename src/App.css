@@ -1,0 +1,145 @@
+
+ .home{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: auto;
+    overflow-y: auto;
+
+ }
+
+.hometop{
+    
+top: 0;
+left: 0;
+width: 100%; 
+height: 200px;
+position: fixed;
+
+box-sizing: border-box;
+background-image: url('C:\Users\poona\OneDrive\Desktop\Front End\project1\minitoolkit\src\assets\background.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat; 
+
+}
+
+
+.hometop h1{margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:'Cursive', 'Comic Sans MS', sans-serif;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.border{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(38, 36, 36);
+    color: aliceblue;
+}
+
+.cardboxtitle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 250px;
+    margin: 20px; 
+    height: 350px;
+    background-color: #f4f4f4;
+} 
+
+
+.cardboxtitle{
+    color:black;
+    text-align: center;
+}
+
+.cardtitle{
+    margin-top: 2px;
+    height: 10px;
+     display: block; 
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none; 
+    color: black;
+    font-size: 1.5em;
+    transition: color o.3 ease; 
+}
+
+.cardtitle:hover{
+    color: black;
+    font-size: 2em;
+}
+
+.cardimg{
+    width: 205px;
+    height: 170px;
+   
+    padding-left: 11px;  
+}
+
+.cardsubtitle{
+    padding: 10px;
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(67, 66, 66);
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.cardbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f4f4f4;
+    padding: 10px 10px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor:pointer ;
+    transition: transform 0.3s ease, background-color 0.3s ease   ;
+
+}
+
+.cardbutton:hover{
+    transform: scale(1.1);
+    background-color: rgb(209, 206, 206);
+}
+
+
+
+
+
+
+
+
+
